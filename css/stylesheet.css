@@ -20,7 +20,10 @@ h1 {
 
 body {
   background-color: rgb(233, 231, 231);
-  background-image: url(../img/satisfactory2.png)
+  background-image: url(../img/satisfactory2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .top img{
@@ -49,3 +52,7 @@ h2 {
 a {
   text-decoration: none;
 }
+
+/* * {
+  text-align: center;
+} */
