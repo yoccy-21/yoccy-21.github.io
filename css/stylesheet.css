@@ -42,11 +42,11 @@ body {
 
 p {
   /* text-align: center; */
-  border-bottom: 2px solid rgb(66, 65, 65);
 }
 
 h2 {
   text-align: center;
+  border-top: 2px solid rgb(66, 65, 65);
 }
 
 a {
@@ -56,3 +56,30 @@ a {
 /* * {
   text-align: center;
 } */
+
+.challenge {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: skyblue;
+  cursor: pointer;
+  transition: 0.8s;
+  margin: 0.8px 8px 0;
+  text-align: center;
+  line-height: 100px;
+}
+
+.win {
+  transform: scale(0.9);
+}
+
+.lose {
+  background: pink;
+  border-radius: 50%;
+  transform: rotate(360deg);
+}
+
