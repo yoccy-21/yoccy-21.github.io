@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+.circle {
+  /* background-color:blue; */
+  /* width: 400px; */
+  margin-right: auto;
+  margin-left: auto;
+  /* display: flex; */
+  text-align: center;
+}
+
+h1 {
+  color: skyblue;
+  font-size: 48px;
+  padding-bottom: 8px;
+  /* border-bottom: 1px solid #ddd; */
+  /* text-align: center; */
+  font-family: Verdana, 'Arial Black', メイリオ, sans-serif;text-shadow: 10px 5px 3px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  background-color: rgb(233, 231, 231);
+  background-image: url(../img/satisfactory2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.top img{
+  margin-top: 30px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(10, 7, 7);
+  box-shadow: 10px 5px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* .boss { */
+  /* width: 200px; */
+  /* background-color: brown; */
+/* } */
+
+/* p { */
+  /* text-align: center; */
+/* } */
+
+h2 {
+  text-align: center;
+  border-top: 2px solid rgb(66, 65, 65);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* * {
+  text-align: center;
+} */
+
+.challenge {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: skyblue;
+  cursor: pointer;
+  transition: 0.8s;
+  margin: 0.8px 8px 0;
+  text-align: center;
+  line-height: 100px;
+}
+
+.win {
+  transform: scale(0.9);
+}
+
+.lose {
+  background: pink;
+  border-radius: 50%;
+  transform: rotate(360deg);
+}
+
